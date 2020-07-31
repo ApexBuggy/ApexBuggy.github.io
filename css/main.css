@@ -4,6 +4,7 @@
 }
 
 .header, .history, .calendar, .buggies {
+  flex: 25%;
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
   align-items: center;
@@ -22,6 +23,7 @@
 }
 
 .defBuggy, .team {
+  flex: 25%;
   padding: 80px;
   text-align: center;
   background: #002060; /*blue -- TO EDIT*/
@@ -34,6 +36,7 @@
 }
 
 .defApex, .exec {
+  flex: 25%;
   padding: 80px;
   text-align: center;
   background: #ecce18; /*gold -- TO EDIT*/
@@ -47,6 +50,7 @@
 
 /* Style the top navigation bar */
 .navbar {
+  flex: 10%;
   overflow: hidden; /* Hide overflow */
   background-color: #333; /* Dark background color */
 }
@@ -94,6 +98,7 @@
 
 /*Footer*/
 .footer {
+  flex: 15%;
   padding: 80px;
   text-align: center;
   display: block;
@@ -112,4 +117,9 @@
 /*Buggies Page*/
 .buggies h1{
   font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
