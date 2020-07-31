@@ -1,85 +1,135 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #ff0000; /* red background */
+  color: white; /* white text color */
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+/* Increase the font size of the <h1> element */
+.header h1 {
+  font-size: 40px;
 }
 
-ul.posts li {
-    list-style: none;
+.header p {
+  font-size: 20px;
 }
 
- /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
+.defBuggy {
+  padding: 80px;
+  text-align: center;
+  background: #002060; /*blue -- TO EDIT*/
   color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
 }
 
-/* Style the hamburger menu */
-.topnav a.icon {
+.defBuggy h1 {
+  font-size: 40px;
+}
+
+.defApex {
+  padding: 80px;
+  text-align: center;
+  background: #ecce18; /*gold -- TO EDIT*/
+  color: white;
+}
+
+.defApex h1{
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ffffff; /* White background color */
+  color: #ddd; /* Grey text color */
+}
+
+
+/*Team page*/
+.history {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #ff0000; /* red background */
+  color: white; /* white text color */
+}
+
+.history h1{
+  font-size: 40px;
+}
+
+.team {
+  padding: 80px;
+  text-align: center;
+  background: #002060; /*blue -- TO EDIT*/
+  color: white;
+}
+
+.team h1 {
+  font-size: 40px;
+}
+
+.team h2 {
+  font-size: 30px;
+}
+
+.exec {
+  padding: 80px;
+  text-align: center;
+  background: #ecce18; /*gold -- TO EDIT*/
+  color: white;
+}
+
+.exec h1 {
+  font-size: 40px;
+}
+
+.calendar {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #ff0000; /* red background */
+  color: white; /* white text color */
+}
+
+.calendar h1{
+  font-size: 40px;
+}
+
+.footer {
+  padding: 80px;
+  text-align: center;
   background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
   color: white;
-} 
+}
+
+.footer h1 {
+  font-size: 26px;
+}
+
+.footer a, .footer p{
+  font-size: 18px;
+}
+
+.buggies {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #ff0000; /* red background */
+  color: white; /* white text color */
+}
+
+.buggies h1{
+  font-size: 40px;
+}
