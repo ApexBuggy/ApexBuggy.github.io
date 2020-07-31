@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+	
 	<head>
-		<title>Home</title>
+		<title>Apex Buggy</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+            /*Every page*/
+            body {
+                display: flex;
+                  flex-direction: column;
+            }
+            .nav {
+                flex: 10%;
+            }
+            .nav a {
+                text-align: center;
+            }
+            .block1 {
+                flex: 25%;
+                padding: 80px; /* some padding */
+                text-align: center; /* center the text */
+                align-items: center;
+                background: #ff0000; /* red background */
+                color: white; /* white text color */
+                display: block;
+                text-align: center;
+            }
+            .block2 {
+                flex: 25%;
+                padding: 80px;
+                text-align: center;
+                background: #002060; /*blue -- TO EDIT*/
+                color: white;
+                display: block;
+                text-align: center;
+            }
+            .block3 {
+                flex: 25%;
+                padding: 80px;
+                text-align: center;
+                background: #ecce18; /*gold -- TO EDIT*/
+                color: white;
+                display: block;
+                text-align: center;
+            }
+            .footer {
+                flex: 15%;
+                padding: 80px;
+                text-align: center;
+                display: block;
+                background: black;
+                color: white;
+            }
+
+            .footer h1 {
+                font-size: 20px;
+                text-align: center;
+                align-content: center;
+            }
+
+            .icons {
+                align-content: center;
+            }
+            
+            .icons p {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .block1 h1, .block2 h1, .block3 h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .block1 h2, .block2 h2, .block3 h2 {
+                font-size: 30px;
+                text-align: center;
+            }
+
+        </style>
+
 	</head>
+
 	<body>
 		<div class="container">
 			<div class="nav"> 
@@ -13,19 +92,19 @@
 				<a href="buggies.html">Buggies</a>
 				<a href="events.html">Events</a>
 			</div>
-			<div class="header">
+			<div class="block1">
 				<img src="images/logo.png">
 			</div>
-			<div class="defBuggy">
+			<div class="block2">
 				<h1>What is buggy?</h1>
 			</div>
-			<div class="defApex">
+			<div class="block3">
 				<h1>What is Apex?</h1>
 			</div>
 			<footer class="footer">
 				<h1>Find us at:</h1>
 				<a href="mailto:cmu.apex@gmail.com">cmu.apex@gmail.com</a>
-				<div>
+				<div class="icons">
 					<p>Instagram</p>
 					<p>Slack</p>
 					<p>Bridge</p>
