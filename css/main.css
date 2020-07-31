@@ -1,10 +1,12 @@
 .body {
   text-align: center;
+  align-items: center;
 }
 
-.header {
+.header, .history, .calendar, .buggies {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
+  align-items: center;
   background: #ff0000; /* red background */
   color: white; /* white text color */
 }
@@ -64,12 +66,6 @@
 
 
 /*Team page*/
-.history {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #ff0000; /* red background */
-  color: white; /* white text color */
-}
 
 .history h1{
   font-size: 40px;
@@ -101,17 +97,13 @@
   font-size: 40px;
 }
 
-.calendar {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #ff0000; /* red background */
-  color: white; /* white text color */
-}
+/*Events Page*/
 
 .calendar h1{
   font-size: 40px;
 }
 
+/*Footer*/
 .footer {
   padding: 80px;
   text-align: center;
@@ -128,13 +120,7 @@
   font-size: 18px;
 }
 
-.buggies {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #ff0000; /* red background */
-  color: white; /* white text color */
-}
-
+/*Buggies Page*/
 .buggies h1{
   font-size: 40px;
 }
