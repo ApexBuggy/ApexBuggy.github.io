@@ -9,6 +9,7 @@
   align-items: center;
   background: #ff0000; /* red background */
   color: white; /* white text color */
+  display: block;
 }
 
 /* Increase the font size of the <h1> element */
@@ -20,22 +21,24 @@
   font-size: 20px;
 }
 
-.defBuggy {
+.defBuggy, .team {
   padding: 80px;
   text-align: center;
   background: #002060; /*blue -- TO EDIT*/
   color: white;
+  display: block;
 }
 
 .defBuggy h1 {
   font-size: 40px;
 }
 
-.defApex {
+.defApex, .exec {
   padding: 80px;
   text-align: center;
   background: #ecce18; /*gold -- TO EDIT*/
   color: white;
+  display: block;
 }
 
 .defApex h1{
@@ -71,26 +74,12 @@
   font-size: 40px;
 }
 
-.team {
-  padding: 80px;
-  text-align: center;
-  background: #002060; /*blue -- TO EDIT*/
-  color: white;
-}
-
 .team h1 {
   font-size: 40px;
 }
 
 .team h2 {
   font-size: 30px;
-}
-
-.exec {
-  padding: 80px;
-  text-align: center;
-  background: #ecce18; /*gold -- TO EDIT*/
-  color: white;
 }
 
 .exec h1 {
