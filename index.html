@@ -10,9 +10,16 @@
             /*Every page*/
             
             img {
+                flex: 75%
                 width: 100%;
                 height: auto;
                 width: auto\9; /* ie8 */
+            }
+
+            .block1 h1 {
+                flex: 25%;
+                text-align: center;
+                color: white;
             }
 
             body {
@@ -44,13 +51,14 @@
             }
 
             .block1 {
-                flex: 25%;
+                flex: 33%;
                 padding: 80px; 
                 text-align: center; 
                 align-items: center;
                 background: #ff0000; 
                 color: white; 
-                display: block;
+                display: flex;
+                flex-direction: row;
                 text-align: center;
             }
 
@@ -156,6 +164,7 @@
             <section>
                 <div class="block1">
                     <img src="images/logo.png"> 
+                    <h1>Open Source Buggy Team</h1>
                 </div>
             </section>
             <section>
