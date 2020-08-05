@@ -20,7 +20,16 @@
                 text-align: center;
             }
             .logo{
+                width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+                width: -moz-max-content;    /* Firefox/Gecko */
+                width: -webkit-max-content; /* Chrome */
+                width: max-content;
 
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                width: auto\9; /* ie8 */
             }
             .block1 {
                 flex: 25%;
@@ -112,7 +121,6 @@
             <section>
                 <div class="block1">
                     <img src="images/logo.png"> 
-                    
                 </div>
             </section>
             <section>
