@@ -9,6 +9,28 @@
 		<style>
             /*Every page*/
             
+            img {
+                width: 100%;
+                height: auto;
+                width: auto\9; /* ie8 */
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+            }
+            section{
+                flex: 25%;
+            }
+            nav{
+                flex: 10%;
+            }
+            footer {
+                flex: 15%;
+            }
+
+/* 
+
             .container {
                 display: flex;
                 flex-direction: column;
@@ -19,26 +41,16 @@
             .nav a {
                 text-align: center;
             }
-            .logo{
-                width: intrinsic;           /* Safari/WebKit uses a non-standard name */
-                width: -moz-max-content;    /* Firefox/Gecko */
-                width: -webkit-max-content; /* Chrome */
-                width: max-content;
-
-            }
-            img {
-                width: 100%;
-                height: auto;
-                width: auto\9; /* ie8 */
-            }
+            
+           
             .block1 {
                 flex: 25%;
                 height: 100vh;
-                padding: 80px; /* some padding */
-                text-align: center; /* center the text */
+                padding: 80px; 
+                text-align: center; 
                 align-items: center;
-                background: #ff0000; /* red background */
-                color: white; /* white text color */
+                background: #ff0000; 
+                color: white; 
                 display: block;
                 text-align: center;
                 height: 30%;
@@ -48,7 +60,7 @@
                 height: 100vh;
                 padding: 80px;
                 text-align: center;
-                background: #002060; /*blue -- TO EDIT*/
+                background: #002060; 
                 color: white;
                 display: block;
                 text-align: center;
@@ -58,7 +70,7 @@
                 flex: 25%;
                 padding: 80px;
                 text-align: center;
-                background: #ecce18; /*gold -- TO EDIT*/
+                background: #ecce18; 
                 color: white;
                 display: block;
                 text-align: center;
@@ -95,7 +107,7 @@
             .block1 h2, .block2 h2, .block3 h2 {
                 font-size: 30px;
                 text-align: center;
-			}
+			} */
 			
 			/*Animations*/
 			
