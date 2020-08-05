@@ -9,8 +9,13 @@
 		<style>
             /*Every page*/
             @font-face { font-family: Interceptor; src: url('Interceptor.otf'); } 
+            @font-face { font-family: Qube; src: url('Qube.otf');}
             h1, p {
+                font-family: Qube;
+            }
+            header h1 {
                 font-family: Interceptor;
+                flex: 1;
             }
             img {
                 flex: 90%;
@@ -25,7 +30,10 @@
                 color: #7c0a02;
             }
             header {
-                flex: 10%
+                flex: 10%;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: row;
             }
             
             main {
@@ -41,6 +49,7 @@
             }
 
             nav {
+                flex: 1
                 display: flex;
                 flex-direction: row;
                 text-align: center;
@@ -176,6 +185,9 @@
 	<body>
         <header>
             <!-- Navigation menu-->
+            <h1>
+                Apex
+            </h1>
             <nav>
                 <a href="index.html">Home</a>
 				<a href="team.html">Team</a>
