@@ -14,7 +14,7 @@
             section h1, p {
                 font-family: Qube;
             }
-            header h1 {
+            .header h1 {
                 font-family: Interceptor;
                 flex: 1;
                 color: white;
@@ -22,7 +22,7 @@
 
             
             img {
-                flex: 90%;
+                flex: 80%;
                 width: auto;
                 height: auto;
                 width: auto\9; /* ie8 */
@@ -39,6 +39,9 @@
                 display: flex;
                 flex-direction: row;
                 background: #7c0a02;
+            }
+            .spacer {
+                flex: 2
             }
             
             main {
@@ -59,7 +62,6 @@
                 flex-direction: row;
                 justify-items: space-between;
                 text-align: center;
-                color: #7c0a02;
             }
 
             .block1 {
@@ -113,6 +115,7 @@
                         <h1>
                             Apex
                         </h1>
+                        <div class="spacer"></div>
                         <nav>
                             <a href="index.html">Home</a>
                             <a href="team.html">Team</a>
