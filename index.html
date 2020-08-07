@@ -14,18 +14,6 @@
             section h1, p {
                 font-family: Qube;
             }
-            .header h1 {
-                font-family: Interceptor;
-                flex: 1;
-                color: white;
-            }
-
-            .centernavvert{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-
 
             img {
                 flex: 80%;
@@ -44,17 +32,16 @@
         
                 width: 100%;
             }
-            
-            main {
-                flex: 75%
+            .header h1 {
+                font-family: Interceptor;
+                flex: 1;
+                color: white;
             }
 
-            footer {
-                flex: 15%;
-                text-align: center;
-                display: block;
-                background: black;
-                color: white;
+            .centernavvert{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
 
             .topnav {
@@ -80,14 +67,16 @@
                 background-color: rgb(219, 166, 243);
                 color: #333;
             }
-
+            
+            main {
+                flex: 75%
+            }
 
             .block1 {
                 flex: 43%;
                 height: 100vh;
                 text-align: center; 
                 align-items: center;
-                background: #7c0a02; 
                 color: white; 
                 display: flex;
                 flex-direction: column;
@@ -96,17 +85,6 @@
                 background-image: url("images/background.gif");
                 background-position: center;
                 margin: 0;
-            }
-
-            .block2 {
-                flex: 33%;
-                height: 100vh;
-                text-align: center;
-                color: white;
-                background: #7c0a02; 
-                display: flex;
-                text-align: center;
-                flex-direction: column;
             }
 
             .motto {
@@ -121,6 +99,29 @@
 
             }
 
+            footer {
+                flex: 15%;
+                text-align: center;
+                display: block;
+                background: black;
+                color: white;
+                font-family: Qube;
+            }
+
+            .space{
+                flex: 3;
+            }
+            .socialmediarow {
+                flex: 10%;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .socialmediarow img{
+                flex: 1;
+                width: auto;
+                height: auto;
+            }
         </style>
 
 	</head>
@@ -146,35 +147,18 @@
                     </div>
                  </div>
             </section>
-            <!-- <section>
-                <div class="block2">
-                    <h1> What's Buggy?</h1>
-                    <div class="text-padding">
-                        <p> Buggy is a chaotically fun Carnival event where teams come together to create carbon-fiber gravity-powered trikes
-                            (imagine a torpedo but with a person inside) and push them up hills in a frenzied race. But the trike -- most 
-                            commonly classified as a <i>buggy</i> -- is not only a baton to be passed around -- the driver inside must maneuver
-                            around a curvy road a sharp turn in order to pull their team ahead in the race! 
-                        </p>
-                        <br>
-                        <p>It's thrilling! It's fascinating! It's riveting! It's buggy!</p>
-                        <br>
-                        <p>(We even have a <a href="https://cmubuggy.org/reference/What_is_buggy%3F">wikipedia page</a>!)</p>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <h1>What is Apex?</h1>
-            </section> -->
         </main>
         <footer>
             <!-- Social Media Links-->
             <div class="footer">
 				<h1>Find us at:</h1>
 				<a href="mailto:cmu.apex@gmail.com">cmu.apex@gmail.com</a>
-				<div class="icons">
-					<p>Instagram</p>
-					<p>Slack</p>
-					<p>Bridge</p>
+				<div class="socialmediarow">
+                    <div class="space"></div>
+					<a href="https://www.instagram.com/apexbuggy/?hl=en"><img src="images/insta.png"></a>
+					<a href="https://apexbuggy.slack.com/"><img src="images/slack.png"></a>
+                    <a href="https://thebridge.cmu.edu/organization/apex"><img src="images/bridge.png"></a>
+                    <div class="space"></div>
 				</div>
 			</div>
         </footer>		
