@@ -4,23 +4,169 @@
 	<head>
 		<title>Apex Buggy</title>
 		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <style>
-            .cover {
-                overflow: hidden;
-                background-size: cover;
-                background-position: center;
-                background-image: url("images/background.gif")
+		<style>
+            /*Every page*/
+            @font-face { font-family: Interceptor; src: url('Interceptor.otf'); } 
+            @font-face { font-family: Qube; src: url('Qube.otf');}
+           
+            section h1, p {
+                font-family: Qube;
             }
+            header h1 {
+                font-family: Interceptor;
+                flex: 1;
+                color: white;
+            }
+
+            
+            img {
+                flex: 90%;
+                width: 100%;
+                height: auto;
+                width: auto\9; /* ie8 */
+            }
+
+            body {
+                display: flex;
+                flex-direction: column;
+                color: #7c0a02;
+            }
+            header {
+                flex: 10%;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: row;
+                background: #7c0a02;
+            }
+            
+            main {
+                flex: 75%
+            }
+
+            footer {
+                flex: 15%;
+                text-align: center;
+                display: block;
+                background: black;
+                color: white;
+            }
+
+            nav {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                justify-items: space-between;
+                text-align: center;
+                color: #7c0a02;
+            }
+
+            .block1 {
+                flex: 33%;
+                height: 100vh;
+                text-align: center; 
+                align-items: center;
+                background: #7c0a02; 
+                color: white; 
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .block2 {
+                flex: 33%;
+                height: 100vh;
+                text-align: center;
+                color: white;
+                background: #7c0a02; 
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+            }
+
+            .motto {
+                flex: 10%;
+                font-size: x-large;
+                color: white;
+            }
+
+            .text-padding {
+                padding: 500 px;
+                text-align:center;
+
+            }
+
         </style>
-    </head>
-    <main>
-        <div class="cover">
-        </div>
 
-    </main>
-    <footer>
+	</head>
 
-    </footer>
-</html>
+	<body>
+        <header>
+            <!-- Navigation menu-->
+            <h1>
+                Apex
+            </h1>
+            <nav>
+                <a href="index.html">Home</a>
+				<a href="team.html">Team</a>
+				<a href="buggies.html">Buggies</a>
+				<a href="events.html">Events</a>
+            </nav> 
+        </header>
+        <main>
+            <!--actual content-->
+            <section>
+                <div class="block1">
+                    <img src="images/background.gif"> 
+                    <div class="motto">
+                        <h1>CMU's only fully open-source buggy org</h1>
+                    </div>
+                 </div>
+            </section>
+            <section>
+                <div class="block2">
+                    <h1> What's Buggy?</h1>
+                    <div class="text-padding">
+                        <p> Buggy is a chaotically fun Carnival event where teams come together to create carbon-fiber gravity-powered trikes
+                            (imagine a torpedo but with a person inside) and push them up hills in a frenzied race. But the trike -- most 
+                            commonly classified as a <i>buggy</i> -- is not only a baton to be passed around -- the driver inside must maneuver
+                            around a curvy road a sharp turn in order to pull their team ahead in the race! 
+                        </p>
+                        <br>
+                        <p>It's thrilling! It's fascinating! It's riveting! It's buggy!</p>
+                        <br>
+                        <p>(We even have a <a href="https://cmubuggy.org/reference/What_is_buggy%3F">wikipedia page</a>!)</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>What is Apex?</h1>
+            </section>
+        </main>
+        <!-- <div class="content">
+            <div class="block1">
+                <img src="images/logo.png"> 
+                
+            </div>
+			<div class="block2">
+				<h1>What is buggy?</h1>
+			</div>
+			<div class="block3">
+				<h1>What is Apex?</h1>
+			</div>
+        </div> -->
+        <footer>
+            <!-- Social Media Links-->
+            <div class="footer">
+				<h1>Find us at:</h1>
+				<a href="mailto:cmu.apex@gmail.com">cmu.apex@gmail.com</a>
+				<div class="icons">
+					<p>Instagram</p>
+					<p>Slack</p>
+					<p>Bridge</p>
+				</div>
+			</div>
+        </footer>		
+	</body>
+</html> 
