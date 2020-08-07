@@ -26,12 +26,6 @@
                 justify-content: center;
             }
 
-            nav a {
-                font-family: Qube;
-                color: white;
-                text-decoration: none;
-                flex: 1;
-            }
 
             img {
                 flex: 80%;
@@ -65,13 +59,28 @@
                 color: white;
             }
 
-            nav {
-                flex: 1;
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-around;
-                text-align: center;
             }
+
+            .topnav a {
+                flex: 1;
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 16px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                font-family: Qube;
+            }
+
+            .topnav a:hover {
+                background-color: #ddd;
+            }
+
 
             .block1 {
                 flex: 43%;
@@ -123,12 +132,12 @@
                 <div class="block1">
                     <div class="header">
                         <div class="centernavvert">
-                            <nav>
+                            <div class="topnav">
                                 <a href="index.html">Home</a>
                                 <a href="team.html">Team</a>
                                 <a href="buggies.html">Buggies</a>
                                 <a href="events.html">Events</a>
-                            </nav>
+                            </div>
                         </div>
                     </div>
                     <img src="images/logo.png">
