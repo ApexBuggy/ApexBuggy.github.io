@@ -1,0 +1,14 @@
+- Global Header: 
+  - navigation
+- Home
+  - what info can we include here? should we shift something from about us here?
+- About Us
+   - 4 quadrant links (each subbullet is a page?)
+      - What's Buggy
+      - History
+      - Team
+      - Exec Board
+- Buggies
+- Join (optional)
+- Global Footer:
+   - social media 

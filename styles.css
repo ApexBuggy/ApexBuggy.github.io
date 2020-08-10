@@ -1,0 +1,115 @@
+/*Every page*/
+@font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
+@font-face { font-family: Qube; src: url('assets/fonts/Qube.otf');}
+
+section h1, p {
+    font-family: Qube;
+}
+
+img {
+    flex: 80%;
+    width: auto;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header {
+    flex: 10%;
+
+    width: 100%;
+}
+.header h1 {
+    font-family: Interceptor;
+    flex: 1;
+    color: white;
+}
+
+.centernavvert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.topnav a {
+    flex: 1;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Qube;
+}
+
+.topnav a:hover {
+    background-color: rgb(219, 166, 243);
+    color: #333;
+}
+
+main {
+    flex: 75%
+}
+
+.block1 {
+    flex: 43%;
+    height: 100vh;
+    text-align: center; 
+    align-items: center;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-image: url("images/background.gif");
+    background-position: center;
+    margin: 0;
+}
+
+.motto {
+    flex: 10%;
+    font-size: x-large;
+    color: white;
+}
+
+.text-padding {
+    padding: 500 px;
+    text-align:center;
+
+}
+
+footer {
+    flex: 15%;
+    text-align: center;
+    display: block;
+    background: black;
+    color: white;
+    font-family: Qube;
+}
+
+.space{
+    flex: 4;
+}
+.socialmediarow {
+    flex: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmediarow img{
+    flex: 1;
+    width: 20px;
+    height: 20px;
+}
