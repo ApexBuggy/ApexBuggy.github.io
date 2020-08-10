@@ -73,7 +73,7 @@ main {
     flex-direction: column;
     text-align: center;
     width: 100%;
-    background-image: url("assets/images/apexbackground.gif");
+    background-image: url("assets/images/background.gif");
     background-position: center;
     background-size: cover;
     margin: 0;
