@@ -1,7 +1,6 @@
-/*Every page*/
-@font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
-@font-face { font-family: Qube; src: url('assets/fonts/Qube.otf');}
-
+/*Apex font*/
+@font-face { font-family: Interceptor; src: url('../assets/fonts/Interceptor.otf'); } 
+@font-face { font-family: Qube; src: url('../assets/font/Qube.otf'); }
 section h1, p {
     font-family: Qube;
 }
@@ -74,6 +73,7 @@ main {
     text-align: center;
     width: 100%;
     background-image: url("assets/images/background.gif");
+    /* credit: https://www.deviantart.com/stardust-specks */
     background-position: center;
     background-size: cover;
     margin: 0;
