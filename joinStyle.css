@@ -2,14 +2,23 @@
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
 
 div {
+    display: flex;
     justify-content: center;
-    align-content: center;
+    background-color: white;
+    width: 80%;
+    height: 90%;
 }
 main {
     background-color: #CE311A;
 }
 
+h1{
+    color: black;
+    justify-self: center;
+}
+
 iframe{
+    flex: 8;
     width: 640px;
     height: 856px;
     margin: 0;
