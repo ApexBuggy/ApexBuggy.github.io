@@ -1,2 +1,16 @@
 /*Apex font*/
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
+
+div {
+    justify-content: center;
+    align-content: center;
+}
+main {
+    background-color: #CE311A;
+}
+
+iframe{
+    width: 640px;
+    height: 856px;
+    margin: 0;
+}
