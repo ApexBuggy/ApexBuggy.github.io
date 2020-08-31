@@ -1,2 +1,18 @@
 /*Apex font*/
-@font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
+@font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); }
+
+.section {
+    width: 25%;
+}
+
+.propic {
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
