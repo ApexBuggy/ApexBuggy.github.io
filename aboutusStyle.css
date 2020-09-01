@@ -2,12 +2,13 @@
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); }
 
 .section {
-    width: 25%;
+    display: block;
+    padding: 2%;
+    width: 20%;
 }
 
 .propic {
-    max-width: 25%;
-    max-height: 100px;
+    max-width: 20%;
     width: auto;
     height: auto;
 }
