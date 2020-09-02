@@ -1,28 +1,45 @@
 /*Apex font*/
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
+@font-face { font-family: Exo; src: url('assets/fonts/exo.regular.otf'); }
 
 main {
     color: white;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-        linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0.01%, #000000 67.19%),
-        url('http://lorempixel.com/400/200/sports/');
+        linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0.01%, #000000 95%),
+        url('assets/images/Firefly.JPG');
+    background-size: cover;
     font-size: 48px;
-    height: 100vh;
-}
-
-img {
-    width: min(716px, 50vw);
-    height: min(737px, 50vw);
-}
-
-div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 400px;
+    font-family: 'Exo';
+}
+
+main img {
+    width: min(716px, 60vw);
+    height: min(737px, 60vw);
 }
 
 .topnav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 250px;
+}
+
+footer img {
+    width: 70px;
+    height: 70px;
+}
+
+a {
+    margin: 40px;
 }
