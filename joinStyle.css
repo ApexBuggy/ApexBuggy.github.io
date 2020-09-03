@@ -10,6 +10,10 @@
     width: 90%;
     height: 90%;
 } */
+.container{
+    align-content: center;
+}
+
 main {
     background-color: #CE311A;
     /* display: flex;
