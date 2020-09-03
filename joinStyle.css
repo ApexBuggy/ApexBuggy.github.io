@@ -1,7 +1,7 @@
 /*Apex font*/
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
 
-/* div {
+div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,23 +9,19 @@
     margin: 10%;
     width: 90%;
     height: 90%;
-} */
-.container{
-    align-content: center;
+}
+main {
+    background-color: #CE311A;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
-/* main {
-    background-color: #CE311A;
-    /* display: flex;
-    justify-content: center;
-    margin: 0; */
-} */
-
-/* h1{
+h1{
     color: black;
     align-items: center;
     justify-items:center;
-} */
+}
 
 .topnav {
     display: flex;
