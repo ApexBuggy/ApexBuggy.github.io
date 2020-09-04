@@ -1,2 +1,7 @@
-/*Apex font*/
-@font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); } 
+.centerBlock{
+    margin: auto;
+    text-align: center;
+    width:80%;
+    background-color: white;
+    margin-top:10px;
+}
