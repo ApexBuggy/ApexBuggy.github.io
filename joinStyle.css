@@ -23,7 +23,10 @@ h1{
     justify-items:center;
 } */
 
-.flexboi{
+main {
     display: flex;
     flex-wrap: wrap;
+    background-color:#330000;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
