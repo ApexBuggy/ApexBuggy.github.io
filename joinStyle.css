@@ -23,8 +23,7 @@ h1{
     justify-items:center;
 } */
 
-.topnav {
+.flexboi{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
