@@ -32,9 +32,21 @@ td {
     padding: 15px;
 }
 
+@media only screen and (max-width: 1400px) {
+    .section {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        width: 49%;
+    }
+}
+
 /* for mobile responsiveness */
 @media only screen and (max-width: 600px) {
-  .section {
+    .section {
         width: 100%;
         /* reset margin */
         margin: 0px;
@@ -50,8 +62,3 @@ td {
     height: auto;
     width: auto\9; /* ie8 */
 }
-
-/*.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}*/
