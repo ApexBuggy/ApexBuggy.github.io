@@ -55,10 +55,23 @@ td {
     }
 }
 
+.position {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.image-section {
+    height: 350px;
+}
+
 .propic {
-    max-height: 400px;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    width: auto\9; /* ie8 */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    padding-top: 10px;
 }
