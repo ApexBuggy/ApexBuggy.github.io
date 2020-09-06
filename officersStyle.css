@@ -1,7 +1,12 @@
 /*Apex font*/
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); }
 
+body {
+    background-color: red;
+}
+
 #content {
+    background-color: white;
     margin: auto;
     width: 80%;
 }
@@ -13,6 +18,7 @@
 
 h1 {
     margin: auto;
+    padding: 25px;
     text-align: center;
 }
 
@@ -25,22 +31,22 @@ td {
 }
 
 .section {
-    background-color: pink;
+    background-color: lightgray;
     display: block;
-    width: 24%;
-    margin: 0.5%;
+    width: 23%;
+    margin: 0.5% auto;
     padding: 15px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
     .section {
-        width: 32%;
+        width: 30%;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .section {
-        width: 49%;
+        width: 48%;
     }
 }
 
@@ -49,9 +55,7 @@ td {
     .section {
         width: 100%;
         /* reset margin */
-        margin: 0px;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin: 2% auto;
     }
 }
 
