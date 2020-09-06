@@ -7,24 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navbarStyle.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <script>
+        $(document).ready(function () {
+            $("#loadNavbar").load("navbar.html");
+        });
+    </script>
 </head>
 <!--laggy-->
 
 <body>
     <header>
         <!--Navigation bar-->
-        <div class='topnav'>
-            <a href="index.html">Home</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="subteams.html">Subteams</a>
-            <a href="buggies.html">Buggies</a>
-            <a href="events.html">Events</a>
-            <a href="join.html">Join</a>
-        </div>
+        <div id="loadNavbar"></div>
     </header>
     <main class="bg-danger pt-5 pb-5">
 
