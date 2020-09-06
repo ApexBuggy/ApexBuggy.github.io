@@ -17,3 +17,6 @@
 	background-color: #FF0000;
     color: #ffffff;
 }
+.navbar-nav>li {
+    display: inline-block;
+}
