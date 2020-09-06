@@ -55,6 +55,13 @@ td {
     }
 }
 
+.position {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 .image-section {
     height: 350px;
 }
