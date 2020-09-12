@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	
+
 	<head>
 		<title>Apex Buggy</title>
 		<meta charset="UTF-8">
@@ -8,68 +8,58 @@
 
         <link rel="stylesheet" href="substeamsStyle.css">
 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	
+	<!-- Navbar stuff -->
+	<link rel="stylesheet" href="navbarStyle.css">	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script> 
+		$(function(){
+          	$("#includeHeader").load("navbar.html"); 
+       	 });
+        </script> 	
 	</head>
-<!--laggy-->
+	
 	<body>
-        <header>
-            <!--Navigation bar-->
-            <div class='topnav'>
-                <a href="index.html">Home</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="subteams.html">Subteams</a>
-                <a href="buggies.html">Buggies</a>
-                <a href="events.html">Events</a>
-                <a href="join.html">Join</a>
-            </div>
-        </header>
+	<!--Load navbar-->
+	<header id="includeHeader"></header>
         <main>
-            <div class="infobox" id="buggyInfo">
-				<h1 class="title"> What is buggy?</h1>
-				<div class="row">
-					<div class="column">
-						<p>Buggy is the ultimate competition of brains and brawns. It is a competition where students push a man-made buggy up and down on a course between campus and Schenley park. Confused? Watch this video.</p>
-					</div>
-					<div class="column">
-						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SuzNOo2ANjs?start=53" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-					</div>
+			<div class="wrapper" id="wrapperBuggyInfo">
+				<div class="container">
+					<h1 class="title"><div class="square"></div> What is buggy?</h1>
+					<p class="text">Equal parts sport and engineering challenge, buggy is one of CMU’s most prominent and long standing traditions. There’s a role for everyone, whether as a pusher sprinting up one of the course hills, a driver speeding around the chute turn, or a mechanic designing and building a buggy from scratch. A year of team effort culminates in Raceday, the annual competition of the five-hill relay around campus. Whatever role suits you best, we can’t wait to see you on the course!</p>
 				</div>
 			</div>
-			<div class="infobox" id="drivers">
-				<h1 class="title">Drivers</h1>
-				<div class="row">
-					<div class="column">
-						<p>Are you shorter than 5 feet? Do you want to ride at over 35 mph while inches from the ground? Then driving is for you! Driving is a fun and thrilling experience. With controls over the steering and the brake, it is up to the drivers to keep the buggy on the fastest path.</p>
-					</div>
-					<div class="column">
-						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SuzNOo2ANjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-					</div>
+
+			<div class="wrapper" id="wrapperDrivers">
+				<div class="container">
+					<h1 class="title"><div class="square"></div> Drivers</h1>
+					<p class="text">Are you shorter than 5 feet? Do you want to ride at over 35 mph while inches from the ground? Then driving is for you! Driving is a fun and thrilling experience. With controls over the steering and the brake, it is up to the drivers to keep the buggy on the fastest path.</p>
 				</div>
 			</div>
-			<div class="infobox" id="pushers">
-				<h1 class="title">Pushers</h1>
-				<div class="row">
-					<div class="column">
-						<p>Pushers . . . push the buggy. They are the ones who get it up the hills during the race. It requires a surprising mix of speed, strength, and coordination, making it a great work out and way to stay in shape while having fun.</p>
-					</div>
-					<div class="column">
-						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SuzNOo2ANjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-					</div>
+
+
+			<div class="wrapper" id="wrapperPushers">
+				<div class="container">
+					<h1 class="title"><div class="square"></div> Pushers</h1>
+					<p class="text">Pushers . . . push the buggy. They are the ones who get it up the hills during the race. It requires a surprising mix of speed, strength, and coordination, making it a great work out and way to stay in shape while having fun.</p>
 				</div>
 			</div>
-			<div class="infobox" id="mechanics">
-				<h1 class="title">Mechanics</h1>
-				<div class="row">
-					<div class="column">
-						<p>Mechanics are critical to everything before and after the race. They build the buggies, maintain them, and make adjustments to parts over time. It is their job to build buggies that are both fast and safe.</p>
-					</div>
-					<div class="column">
-						<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SuzNOo2ANjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-					</div>
+
+			<div class="wrapper" id="wrapperMechanics">
+				<div class="container">
+					<h1 class="title"><div class="square"></div> Mechanics</h1>
+					<p class="text">Our mechanics design, build, and maintain our buggy fleet. You can usually find us either at shop hours building and fixing the buggies or at rolls preparing for the races! While this year may look a little different, we’ll still be keeping our buggies in top shape and hosting mechanic social events to stay connected. Reach out or drop by shop hours to learn more!</p>
 				</div>
 			</div>
+
         </main>
         <footer>
             <!-- Social Media Links-->
-        </footer>		
+        </footer>
 	</body>
 </html> 
