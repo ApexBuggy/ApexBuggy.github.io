@@ -13,18 +13,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#loadNavbar").load("navbar.html");
+        $(function () {
+            $("#includeHeader").load("navbar.html");
         });
     </script>
 </head>
 <!--laggy-->
 
 <body style="box-sizing: border-box;">
-    <header class="mb-5">
-        <!--Navigation bar-->
+    <header id="includeHeader"></header>
+    <!-- <header class="mb-5">
         <div id="loadNavbar"></div>
-    </header>
+    </header> -->
     <main class="bg-danger pt-5 pb-5">
         <div class="container-sm mx-auto  m-5  bg-light text-black">
             <div class="text-center">
