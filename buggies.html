@@ -6,113 +6,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="buggiesStyle.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Navbar stuff -->
-    <link rel="stylesheet" href="navbarStyle.css">	
+    <link rel="stylesheet" href="navbarStyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script> 
-	$(function(){
-        $("#includeHeader").load("navbar.html"); 
-       	});
-    </script> 	
+    <script>
+        $(function() {
+            $("#includeHeader").load("navbar.html");
+        });
+    </script>
 </head>
 
 <body>
     <!--Load navbar-->
     <header id="includeHeader"></header>
+    <main>
+        <div class="wrapper" id="wrapper">
+            <div class="container">
+                <h1 class="title">
+                    <div class="square"></div> Currently Rolling
+                </h1>
 
-    <div class="centerBlock">
-        <div id="rolling">
-            <div class="row">
-                <h1 class="col">Currently Rolling</h1>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h3>Solaris</h3>
-                </div>
-                <div class="col">
-                    <h3>Azula</h3>
-                </div>
-                <div class="col">
-                    <h3>Firefly</h3>
-                </div>
-                <div class="col">
-                    <h3>Phoenix</h3>
-                </div>
-            </div>
+                <div class="buggies">
+                    <div class="row justify-content-md-cent">
+                        <div class="col">
+                            <h3 class="text">Solaris</h3>
+                        </div>
+                        <div class="col">
+                            <h3 class="text">Azula</h3>
+                        </div>
+                        <div class="col">
+                            <h3 class="text">Firefly</h3>
+                        </div>
+                        <div class="col">
+                            <h3 class="text">Phoenix</h3>
+                        </div>
+                    </div>
 
-            <div class="row justify-content-md-center">
-                <img class="col-3" src='assets/images/solaris.jpg' />
-                <img class="col-3" src='assets/images/solaris.jpg' />
-                <img class="col-3" src='assets/images/solaris.jpg' />
-                <img class="col-3" src='assets/images/solaris.jpg' />
-            </div>
+                    <div class="row justify-content-md-center">
+                        <img class="col-3" src='assets/images/solarisRolls.jpg' />
+                        <img class="col-3" src='assets/images/azula.JPG' />
+                        <img class="col-3" src='assets/images/Firefly.JPG' />
+                        <img class="col-3" src='assets/images/Phoenix.JPG' />
+                    </div>
 
-            <div class="row">
-                <div class="col">
-                    <h4>2019</h4>
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="text">2019</h4>
+                        </div>
+                        <div class="col">
+                            <h4 class="text">2018</h4>
+                        </div>
+                        <div class="col">
+                            <h4 class="text">2017</h4>
+                        </div>
+                        <div class="col">
+                            <h4 class="text">2013</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <h4>2018</h4>
+
+
+                <h1 class="title">
+                    <div class="square"></div> In Progress
+                </h1>
+
+                <div class="buggies">
+                    <div class="row justify-content-md-center">
+                        <h3 class="text">Tobasco</h3>
+                    </div>
+
+                    <div class="row justify-content-md-center">
+                        <img class="col-3" src='assets/images/tobasco.jpg' />
+                    </div>
+
+                    <div class="row justify-content-md-center">
+                        <h4 class="text">TBD</h4>
+                    </div>
                 </div>
-                <div class="col">
-                    <h4>2017</h4>
-                </div>
-                <div class="col">
-                    <h4>2013</h4>
+
+
+                <h1 class="title">
+                    <div class="square"></div> Retired
+                </h1>
+
+
+                <div class="buggies">
+
+                    <div class="row justify-content-md-center">
+                        <h3 class="text">Ember</h3>
+                    </div>
+
+                    <div class="row justify-content-md-center">
+                        <img class="col-3" src='assets/images/ember.JPG' />
+                    </div>
+
+                    <div class="row justify-content-md-center">
+                        <h4 class="text">2015</h4>
+
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div id="inProgress">
-            <div class="row">
-                <h1 class="col">In Progress</h1>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h3>Tobasco</h3>
-                </div>
-            </div>
-
-            <div class="row justify-content-md-center">
-                <img class="col-3" src='assets/images/solaris.jpg' />
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h4>TBD</h4>
-                </div>
-            </div>
-        </div>
-
-        <div id="retired">
-            <div class="row">
-                <h1 class="col">Retired</h1>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h3>Ember</h3>
-                </div>
-            </div>
-
-            <div class="row justify-content-md-center">
-                <img class="col-3" src='assets/images/solaris.jpg' />
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <h4>2015</h4>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
 
 
