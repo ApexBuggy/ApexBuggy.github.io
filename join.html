@@ -15,19 +15,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#loadNavbar").load("navbar.html");
+        $(function () {
+            $("#includeHeader").load("navbar.html");
         });
     </script>
 </head>
 <!--laggy-->
 
 <body>
-    <header>
-        <!--Navigation bar-->
-        <div id="loadNavbar"></div>
-    </header>
-    <main>
+    <header id="includeHeader"></header>
+
+    <main class="pb-5 myClass">
         <div class="container-sm mx-auto  m-5  bg-light text-black">
             <div class="text-center">
                 <h1>Join Us</h1>
