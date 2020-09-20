@@ -1,0 +1,13 @@
+@font-face {font-family: Exo; src: url('assets/fonts/Exo-Regular.ttf'); font-weight: normal; font-style: normal;}
+@font-face {font-family: Exo; src: url('assets/fonts/Exo-SemiBold.ttf'); font-weight: bold; font-style: normal;}
+@font-face {font-family: Exo; src: url('assets/fonts/Exo-SemiBoldItalic.ttf'); font-weight: bold; font-style: italic;}
+
+h1 {
+    font-family: Exo;
+    font-weight: bold;
+}
+
+p {
+    font-family: Exo;
+    font-weight: normal;
+}
