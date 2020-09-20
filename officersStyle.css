@@ -68,7 +68,7 @@ td {
 }
 
 .image-section {
-    height: 350px;
+    height: 280px;
 }
 
 .propic {
@@ -79,4 +79,5 @@ td {
 
 .text {
     padding-top: 10px;
+    font-size: 14px;
 }
