@@ -3,8 +3,8 @@
 @font-face { font-family: Exo; src: url('assets/fonts/Exo-Regular.ttf'); }
 
 .square {
-    height: 1em;
-    width: 1em;
+    height: 0.5em;
+    width: 0.5em;
     display: inline-block;
     background-color: #FF0000;
 }
@@ -12,15 +12,16 @@
 
 .text {
     background-color: black;
-    padding: 1.8em;
+    padding: 0.9em;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
+    margin-bottom: 0;
     font-family: Exo;
 }
 
 .title{
     color:white;
-    font-size: 6em;
+    font-size: 3em;
     padding-top: 4em;
     font-family: Exo;
 }
@@ -30,7 +31,7 @@
     background-size: cover;
     background-color: black;
     background-position: center;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
 }
 
 
