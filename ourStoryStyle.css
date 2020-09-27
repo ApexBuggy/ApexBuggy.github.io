@@ -17,9 +17,31 @@ h1 {
     text-align: center;
 }
 
+@media only screen and (max-width: 1200px) {
+    .section {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section {
+        width: 48%;
+    }
+}
+
+/* for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+    .section {
+        width: 100%;
+        /* reset margin */
+        margin: 2% auto;
+    }
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    max-width: 100%;
+    height: auto;
   }
