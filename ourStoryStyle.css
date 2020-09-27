@@ -2,10 +2,11 @@
 @font-face { font-family: Interceptor; src: url('assets/fonts/Interceptor.otf'); }
 
 body {
-    background-color: red;
+    background-color: #880000;
 }
 
 #content {
+    padding-top: 10%;
     background-color: white;
     margin: auto;
     width: 80%;
